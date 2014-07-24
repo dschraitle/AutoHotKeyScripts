@@ -23,3 +23,4 @@ WinActivate % "i)". WindowTitle
 
 GuiEscape:
 Gui, Cancel
+Gui, Destroy
