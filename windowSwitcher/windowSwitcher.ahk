@@ -22,7 +22,7 @@ If WinExist( "i)" . WindowTitle)
 else
   MsgBox Nope
 
-WinActivate % "i)". WindowTitle
+WinActivate % "i)" . WindowTitle
 
 GuiEscape:
 Gui, Cancel
